@@ -1,0 +1,175 @@
+/* For Header */
+.main-header{
+ background-color: #00008B;
+ top: 0%;
+ position: fixed;
+ min-width: 100%;
+ height: 45px;
+ left: 0%;
+}
+header{
+	width: 50%;
+	display: inline-block;
+}
+nav{
+	float: right;
+	padding: 10px;
+    font-size: 18px;
+}
+
+nav a{
+	margin-left: 20px;
+	color: #FFF;
+}
+
+/* For truYum title */
+#title{
+	font-family: Arial;
+	font-size: 40px;
+	color: white; 
+	vertical-align: middle;
+	margin-left: 3%;
+}
+
+/* Menu Table alignment starts here */  
+#menu-table{
+	width: 100%;
+	border-collapse: collapse;
+	font-family: Arial;
+	margin-left: 10.7%;
+	}
+
+/* Fork Image */
+img{
+	top: 5%;
+	height: 30px;
+	width: 40px;
+	vertical-align: middle;
+}
+
+/* Whole Body Position */
+body{
+	position: fixed;
+	top: 8%;
+	width: 100;
+}
+/* For Footer */
+ footer{
+	background-color: #808080;
+	bottom: 0%;
+	min-width: 100%;
+	height: 34px;
+	position: fixed;
+	left: 0%;
+	vertical-align: middle;
+	font-size: 17px;
+	padding-top: 10px;
+ }
+ /* General Templates ends */
+
+ 
+/* For Menu items */
+h2{
+	margin-left: 12%;
+	font-size: 35px;
+}
+
+/* For Menu items */
+
+/* form alignment starts*/
+.edit-form{
+	margin-left: 12%;
+	font-family: Verdana;
+	font-size: 20px;
+	}
+/* second row input alignment */
+.second-row{
+	position: fixed;
+	min-width: 100%;
+	height: 30px; 
+}
+.inputs{
+	display: inline-block;
+	padding-right: 100px;
+}
+.inputs0{
+	display: inline-block;
+	padding-right: 60px;
+}
+.inputs1{
+	display: inline-block;
+	padding-left: 10px;
+}
+.inputs2{
+	display: inline-block;
+	padding-left: 60px;
+	padding-right: 40px;
+	}
+
+/* border radius for all the inputs */
+#name{
+	border-radius: 5px;
+}
+#prc{
+	text-align: right;
+	border-radius: 5px;
+}
+#dol{
+	border-radius: 5px;
+	}
+	
+#cat{
+	border-radius: 5px;
+}
+
+/* save */
+#sub{
+	height: 40px;
+	width: 90px;
+	background-color: #00008B;
+	color: #fff;
+	border: 0px;
+	border-radius:5px;
+}
+
+ /* Form alignemnt ends */
+ 
+/* table alignment starts */
+ 
+.headers-row{
+	text-align: left;
+	padding-right: 80px;
+ }
+ 
+.seconds-row{
+	text-align: right;
+	padding-right: 80px;
+ }
+ 
+.edit-items{
+	width: 100%;
+	margin-left: 12%;
+	font-size: 35px;
+	font-family: Arial;
+}
+
+h4{
+	margin-left: 12%;
+	color: #006400;
+	font-size: 15px;
+	font-family: Verdana;
+}
+th{
+	font-weight: bold;
+	padding: 12px;
+	text-align: center;
+ }
+ 
+td{
+	padding: 12px;
+	text-align: center;
+ }
+ 
+/* table alignment ends */
+ 
+
