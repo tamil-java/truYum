@@ -1,0 +1,17 @@
+CREATE DATABASE  IF NOT EXISTS truyum;
+
+USE truyum;
+
+
+CREATE TABLE menu_item (
+  me_id int(11) NOT NULL AUTO_INCREMENT,  me_name varchar(100),  me_price decimal(8,2),  me_active varchar(3),    me_date_of_launch date,  me_category varchar(45),  me_free_delivery varchar(3),  PRIMARY KEY (me_id));
+
+
+CREATE TABLE user (
+us_id int(11) NOT NULL AUTO_INCREMENT,  us_name varchar(60),  PRIMARY KEY (us_id));
+
+
+CREATE TABLE cart (
+ct_id int(11) NOT NULL AUTO_INCREMENT,  ct_us_id int(11),  ct_pr_id int(11),
+PRIMARY KEY (ct_id),  FOREIGN KEY (ct_us_id) REFERENCES user (us_id),  FOREIGN KEY (ct_pr_id) REFERENCES  menu_item (me_id));
+
